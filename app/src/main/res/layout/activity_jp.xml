@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityJP">
+
+    <EditText
+        android:id="@+id/editNetto"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="500dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editV"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <EditText
+        android:id="@+id/editKSh"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="404dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editKSh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNetto"
+        app:layout_constraintVertical_bias="0.947" />
+
+    <Button
+        android:id="@+id/btnSaveJP"
+        android:layout_width="380dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/btmsave"
+        android:text="@string/btmSave"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editKSh"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="635dp"
+        android:background="#C0CCDA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/colorControlHighlight" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="600dp"
+        android:text="@string/nameTopJP"
+        android:textAlignment="center"
+        android:textColor="#050303"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

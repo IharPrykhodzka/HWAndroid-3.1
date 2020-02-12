@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Health Monitoring System</string>
+    <string name="nameTop">Комплексная система мониторинга здоровья</string>
+    <string name="nameTop2">Автор: Приходько Игорь</string>
+    <string name="nameEdit">Имя</string>
+    <string name="old">Возраст</string>
+    <string name="btmSave">Сохранить</string>
+    <string name="btmZD">Записать давление</string>
+    <string name="btmZGP">Запись жизненных показателей</string>
+
+    <string name="nameTopPD">Показание давления</string>
+    <string name="editVD">Верхнее давление</string>
+    <string name="editND">Нижнее давление</string>
+    <string name="editP">Пульс</string>
+    <string name="tachycardia">Тахикардия</string>
+
+    <string name="nameTopJP">Жизненные показатели</string>
+    <string name="editV">Вес</string>
+    <string name="editKSh">Количество шагов</string>
+
+    <string name="error">Введите правельно информацию</string>
+</resources>
